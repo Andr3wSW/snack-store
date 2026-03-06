@@ -156,7 +156,8 @@ async function loadSnacks() {
             <h3>${snack.name}</h3>
             <p>$${price}</p>
             <button onclick="addToCart('${snack.name}', ${price})">Add to Cart</button>
-            <button onclick="flipCard(this)">?</button>
+            <button class=flipButton onclick="flipCard(this)">?</button>
+      
           </div>
 
           <div class="card-back">
