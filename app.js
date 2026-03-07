@@ -201,6 +201,13 @@ function flipCard(button) {
 window.flipCard = flipCard;
 
 
+window.signup = signup;
+
+
+window.login = login;
+
+
+
 
 
 
